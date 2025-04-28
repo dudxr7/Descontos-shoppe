@@ -20,11 +20,34 @@
             font-weight: bold;
             border-radius: 0 0 20px 20px;
         }
+        .categoria {
+            text-aling: center;
+            margin-top: 30px;
+        }
+        .categoria div {
+            display: inline-block;
+            margin: 10px;
+            padding:15px;
+            background-color: orange;
+            color: white;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .categoria div:hover {
+            background-color: darkorange;
+        }
         .produto {
             border: 2px solid orange;
             border-radius: 10px;
-            padding: 15px;
-            margin-top: 20px;
+            padding: 20px;
+            margin: 20px;
+            background-color: #darkorange;
+            box-shadow: 0 0 10 px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+        .produto:hover {
+            transform: scale(1.05);
+            
         }
         .produto img {
             width: 100%;
@@ -43,8 +66,8 @@
         .botao {
             display: block;
             width: fit-content;
-            margin: 10px auto 0;
-            padding: 10px 20px;
+            margin: 0 auto;
+            padding: 12px 30px;
             background-color: orange;
             color: white;
             text-decoration: none;
